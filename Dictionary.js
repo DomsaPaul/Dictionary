@@ -21,5 +21,3 @@ var Dictionary = [" "];
       return false;
   }
     </script>
-  </body>
-</html>
