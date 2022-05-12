@@ -1,9 +1,11 @@
   let dictionary = [" "];
+
   function add(){
     let addWord = document.getElementById("add").value;
     dictionary.push(addWord);
     alert("The word \"" + addWord + "\" was added to the dictionary!");
     }
+
   function search() {
     let searchWord = document.getElementById("search").value;
     let exists = 0;
