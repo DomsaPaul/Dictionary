@@ -9,6 +9,7 @@
   function search() {
     let searchWord = document.getElementById("search").value;
     let exists = 0;
+    
       for (let i = 0; i < dictionary.length; ++i){
         if (searchWord.match(dictionary[i])){
           exists = 1;        
