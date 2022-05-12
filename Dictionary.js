@@ -1,6 +1,6 @@
   let dictionary = [" "];
 
-  function add(){
+  function add() {
     let addWord = document.getElementById("add").value;
     dictionary.push(addWord);
     alert("The word \"" + addWord + "\" was added to the dictionary!");
@@ -14,6 +14,7 @@
           exists = 1;        
         } 
       }
+    
       if (exists == 1) {
         alert("The word \"" + searchWord + "\" already exists in the dictionary!");
     } else {
